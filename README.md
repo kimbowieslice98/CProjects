@@ -11,7 +11,7 @@ The idea of this program was to create a way for users to alter their flight thr
 The only thing needed in this program for it to run successfully is to make sure the two text files, reservationc and flightc, are downloaded into Xcode.
 
 ## Code Examples
-* int read_flight(int FlightNumber[],char FlightCityOrigin[][20],char FlightCityDestination[][20], char FlightDate[][20], char FlightTime[][20],int FlightSeats[], int FlightCount);
+int read_flight(int FlightNumber[],char FlightCityOrigin[][20],char FlightCityDestination[][20], char FlightDate[][20], char FlightTime[][20],int FlightSeats[], int FlightCount);
 int read_reservation(int ReservationCount, int ReservationCode[], int ReservationFlightNumber[], char LastName[][20], char FirstName[][20], char SeatType[][20], double SeatCost[]);
 int menu(int FlightNumber[],char FlightCityOrigin[][20],char FlightCityDestination[][20], char FlightDate[][20], char FlightTime[][20],int FlightSeats[], int FlightCount,int ReservationCode[], char LastName[][20],char FirstName[][20],char SeatType[][20],double SeatCost[],int ReservationCount, int ReservationFlightNumber[] );
 int Modify_flight(int FlightNumber[],char FlightCityOrigin[][20],char FlightCityDestination[][20], char FlightDate[][20], char FlightTime[][20],int FlightSeats[], int FlightCount);
